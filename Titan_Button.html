@@ -1,37 +1,33 @@
 <!-- Titan Button Project by Jelle Z. - Work in progress - This code may not be shared without permission from the author -->
 <div id="TitanButtonEmbed">
   <div class="container">
-    <!-- Add external stylesheets and scripts -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-      <!-- Trigger the modal with a button -->
-      <button type="button" id="TitanButton" class="btn btn-info btn-lg" data-toggle="modal" data-target="#TitanModal">
-        <img id="TitanIcon" src="https://github.com/TitanEmbeds/Titan/raw/master/webapp/titanembeds/static/img/titanembeds_shield.png" alt="Titan Embeds icon" srcset="https://cdn.discordapp.com/attachments/295085744249110529/467385833620766731/titan_discord_white_transparent.svg">
-        </button>
-        <!-- Modal -->
-        <div class="modal fade" id="TitanModal" role="dialog">
-          <div class="modal-dialog">
-            <!-- Modal content-->
-            <div class="modal-content">
-              <div class="modal-body">
-                <div class="embed-container">
-                  <iframe id="TitanIframe" src='http://alistapart.com/article/responsive-web-design/'></iframe>
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button type="button" id="TitanCloseButton" class="btn btn-default btn-ease-transition" data-dismiss="modal"></button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <style>
+     <!-- Add external stylesheets and scripts -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <!-- Trigger the modal with a button -->
+     <button type="button" id="TitanButton" class="btn btn-info btn-lg" data-toggle="modal" data-target="#TitanModal"><img id="TitanIcon" src="https://github.com/TitanEmbeds/Titan/raw/master/webapp/titanembeds/static/img/titanembeds_shield.png" alt="Titan Embeds icon" srcset="https://cdn.discordapp.com/attachments/295085744249110529/467385833620766731/titan_discord_white_transparent.svg"></button>
+     <!-- Modal -->
+     <div class="modal fade" id="TitanModal" role="dialog">
+       <div class="modal-dialog">
+         <!-- Modal content-->
+         <div class="modal-content">
+           <div class="modal-body">
+             <div class="embed-container"><iframe id="TitanIframe" src='http://alistapart.com/article/responsive-web-design/'></iframe></div>
+           </div>
+           <div class="modal-footer">
+             <button type="button" id="TitanCloseButton" class="btn btn-default btn-ease-transition" data-dismiss="modal"></button>
+           </div>
+         </div>
+       </div>
+     </div>
+  </div>
+<style>
 #TitanButton {
   transition: color 0.1s ease-out, background 0.1s ease-in;
   position: absolute;
   border-radius: 5px;
-  box-shadow: 0px 0px var(--titan-button-glow-size) var(--titan-button-glow);
+  box-shadow: 0px 0px 10px var(--titan-button-glow-size) var(--titan-button-glow-color);
   background-color: rgb(115,145,214);
   border-color: rgb(80,101,149);
   text-align: center;
@@ -78,18 +74,17 @@
 .modal-body {
   padding: 0px;
 }
-</style>
-      <!-- Default values -->
-      <style>
+
+/* Default values */
 #TitanButtonEmbed {
   --titan-button-content: "";
   --titan-close-button-content: "Close";
   --titan-button-glow-color: white;
   --titan-button-glow-size: 8px;
 }
-</style>
-      <!-- User set values -->
-      <style>
+
+/* User set values */
+
 #TitanButtonEmbed {
   --titan-button-content: "";
   --titan-close-button-content: "Close";
@@ -97,4 +92,14 @@
   --titan-glow-size: 8px;
 }
 </style>
-      <div>
+  
+<!-- User set values -->
+<style>
+#TitanButtonEmbed {
+  --titan-button-content: "";
+  --titan-close-button-content: "Close";
+  --titan-button-glow-color: white;
+  --titan-glow-size: 8px;
+}
+</style>
+<div>
