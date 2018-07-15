@@ -1,0 +1,128 @@
+<!-- Titan Button Project by Jelle Z. - Work in progress - This code may not be shared without permission from the author -->
+<div id="TitanButtonEmbed">
+<div class="container">
+     <!-- Add external stylesheets and scripts -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <!-- Trigger the modal with a button -->
+     <button type="button" id="TitanButton" class="btn btn-info btn-lg" data-toggle="modal" data-target="#TitanModal"><img id="TitanIcon" src="https://github.com/TitanEmbeds/Titan/raw/master/webapp/titanembeds/static/img/titanembeds_shield.png" alt="Titan Embeds icon" srcset="https://cdn.discordapp.com/attachments/295085744249110529/467385833620766731/titan_discord_white_transparent.svg"></button>
+     <!-- Modal -->
+     <div class="modal fade" id="TitanModal" role="dialog">
+       <div class="modal-dialog">
+         <!-- Modal content-->
+         <div class="modal-content">
+           <div class="modal-body">
+             <div class="embed-container"><iframe id="TitanIframe" src='http://alistapart.com/article/responsive-web-design/'></iframe></div>
+           </div>
+           <div class="modal-footer">
+             <button type="button" id="TitanCloseButton" class="btn btn-default btn-ease-transition" data-dismiss="modal"></button>
+           </div>
+         </div>
+       </div>
+     </div>
+</div>
+<style>
+#TitanButton {
+  transition: color 0.1s ease-out, background 0.1s ease-in;
+  position: absolute;
+  border-radius: 5px;
+  box-shadow: 0px 0px var(--titan-button-glow-size) var(--titan-button-glow);
+  background-color: rgb(115,145,214);
+  border-color: rgb(80,101,149);
+  text-align: center;
+  bottom:40px;
+  right:40px;
+
+}
+
+#TitanButton:hover {
+  background-color: rgb(80,101,149);
+}
+
+#TitanButton:active {
+  background-color: rgb(40,61,100);
+}
+
+#TitanButton:after {
+  content: var(--titan-button-content)
+}
+
+#TitanCloseButton:after {
+  content: var(--titan-close-button-content);
+}
+
+#TitanIcon /* SVG version by welian#6782 */ {
+  height: 1.5em;
+  filter: grayscale(100%);
+}
+
+#TitanIframe {
+  border: 0px;
+}
+
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 550px;
+  overflow: hidden;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.btn-ease-transition {
+  transition: color 0.1s ease-out, background 0.1s ease-in;
+}
+
+.modal-body {
+  padding: 0px;
+}
+
+</style>
+
+<!-- Default values -->
+<style>
+#TitanButtonEmbed {
+  --titan-button-content: "";
+  --titan-close-button-content: "Close";
+  --titan-button-glow-color: white;
+  --titan-button-glow-size: 8px;
+}
+</style>
+
+<!-- User set values -->
+<style>
+#TitanButtonEmbed {
+  --titan-button-content: "";
+  --titan-close-button-content: "Close";
+  --titan-button-glow-color: white;
+  --titan-glow-size: 8px;
+}
+</style>
+
+<div>
+
+<!-- Body dummy content -->
+<h1>Welcome to this demo! Try the button in the bottom right.<h1>
+<style>
+h1 {
+  text-align: center;
+  color: white;
+}
+body {
+  background: #a90329;
+  background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%);
+  background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%);
+  background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 );
+}
+</style>
