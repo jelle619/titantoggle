@@ -22,7 +22,35 @@
        </div>
      </div>
   </div>
-<style>
+<style>  
+@font-face {
+    font-family: Whitney;
+    font-style: light;
+    font-weight: 300;
+    src: url("https://github.com/TitanEmbeds/Titan/blob/master/webapp/titanembeds/static/fonts/whitney_light.woff") format("woff")
+}
+
+@font-face {
+    font-family: Whitney;
+    font-style: normal;
+    font-weight: 500;
+    src: url("https://github.com/TitanEmbeds/Titan/raw/master/webapp/titanembeds/static/fonts/whitney_normal.woff") format("woff")
+}
+
+@font-face {
+    font-family: Whitney;
+    font-style: medium;
+    font-weight: 600;
+    src: url("https://github.com/TitanEmbeds/Titan/raw/master/webapp/titanembeds/static/fonts/whitney_medium.woff") format("woff")
+}
+
+@font-face {
+    font-family: Whitney;
+    font-style: bold;
+    font-weight: 700;
+    src: url("https://github.com/TitanEmbeds/Titan/raw/master/webapp/titanembeds/static/fonts/whitney_bold.woff") format("woff")
+}
+  
 #TitanButton {
   transition: color 0.1s ease-out, background 0.1s ease-in;
   position: absolute;
@@ -82,7 +110,7 @@
 #TitanButtonEmbed {
   --titan-button-open-content: "";
   --titan-button-close-content: "Close";
-  --titan-button-fontfamily
+  --titan-button-fontfamily: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
   --titan-button-open-glow-blur: 0px;
   --titan-button-open-glow-spread: 0px;
   --titan-button-open-glow-color: white;
