@@ -5,42 +5,12 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> <!-- LIBRARY -->
 
 <!-- Put this in the body of the document. This will obtain the neccesairy up-to-date markup data from the repository. -->
-<div id="TitanButtonInsert"></div>
-<script>$("#TitanButtonInsert").load("https://github.com/jelle619/titanbutton/raw/master/markup.html");</script>
+<div id="TitanButtonEmbed"> <div class="container"> <button type="button" id="TitanButton" class="btn btn-info btn-lg" data-toggle="modal" data-target="#TitanModal"><img id="TitanIcon" src="https://github.com/TitanEmbeds/Titan/raw/master/webapp/titanembeds/static/img/titanembeds_shield.png" alt="Titan Embeds icon" srcset="https://cdn.discordapp.com/attachments/295085744249110529/467385833620766731/titan_discord_white_transparent.svg"></button> <div class="modal fade" id="TitanModal" role="dialog"> <div class="modal-dialog"> <div class="modal-content"> <div class="modal-body"> <div class="embed-container"><iframe id="TitanIframe" src='https://titanembeds.com/embed/295085744249110529'></iframe></div></div><div class="modal-footer"> <button type="button" id="TitanCloseButton" class="btn btn-default btn-ease-transition" data-dismiss="modal"></button> </div></div></div></div></div></div>
 
-<!-- BROKEN, NEEDS TO BE FIXED - Sets a custom guild URL. If this code is not present, the default (the example embed that can be found on https://titanembeds.com) will be used. -->
+<!-- Sets a custom guild URL. If this code is not present, the default (the example embed that can be found on https://titanembeds.com) will be used. -->
 <script>
-
-var xhr = new XMLHttpRequest({mozSystem: true});
-
-function createRequestObject() {
-    var obj;
-    var browser = navigator.appName;
-    if (browser == "Microsoft Internet Explorer") {
-        obj = new ActiveXObject("Microsoft.XMLHTTP");
-    } else {
-        obj = new XMLHttpRequest();
-    }
-    return obj;
-}
-
-function sendReq(req) {   
-    var http = createRequestObject();
-    http.open('get', req);
-    http.onreadystatechange = handleResponse;
-    http.send(null);
-}
-
-function handleResponse() {    
-    if (http.readyState == 4) {
-        var response = http.responseText;
-        document.getElementById('DisplayTitanButton').innerHTML=response;
-    }
-}
-
- sendReq('https://github.com/jelle619/titanbutton/raw/master/markup.html');
+    CODE BROKEN
 </script>
-<div id="DisplayTitanButton"></div>
 
 <!-- This code is optional. It allows you to customise the look of the button through CSS. You may put this as HTML in the body of your document or in an external CSS file your document uses. -->
 <style>
