@@ -22,7 +22,7 @@
     font-weight: 700;
     src: url("https://github.com/TitanEmbeds/Titan/raw/master/webapp/titanembeds/static/fonts/whitney_bold.woff") format("woff")
 }
-  
+
 #TitanButton {
   transition: color 0.1s ease-out, background 0.1s ease-in;
   position: absolute;
@@ -74,10 +74,11 @@
 .modal-body {
   padding: 0px;
 }
-  
+
 #TitanButtonEmbed {
-  font-family: var(--titan-button-fontfamily)
-  
+  font-family: var(--titan-button-fontfamily);
+}
+
 /* Default values */
 #TitanButtonEmbed {
   --titan-button-open-color: rgb(115,145,214);
