@@ -48,7 +48,8 @@
 }
 #TitanIcon /* SVG version by welian#6782 */ {
   height: 1.5em;
-  filter: grayscale(100%);
+  -webkit-filter: brightness(0) invert(var(--titan-button-open-icon-white));
+  filter: brightness(0) invert(var(--titan-button-open-icon-white));
 }
 #TitanIframe {
   border: 0px;
@@ -81,6 +82,7 @@
 
 /* Default values */
 #TitanButtonEmbed {
+  --titan-button-open-icon-white: 1;
   --titan-button-open-color: rgb(115,145,214);
   --titan-button-open-hover-color: rgb(80,101,149);
   --titan-button-open-active-color: rgb(40,61,100);
