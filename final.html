@@ -9,9 +9,37 @@
 <script>$("#TitanButtonInsert").load("https://github.com/jelle619/titanbutton/raw/master/markup.html");</script>
 
 <!-- BROKEN, NEEDS TO BE FIXED - Sets a custom guild URL. If this code is not present, the default (the example embed that can be found on https://titanembeds.com) will be used. -->
-<script>
-    document.getElementById("TitanIFrame").src = "INSERT_EMBED_URL_HERE";
+<script type="text/javascript">
+
+function createRequestObject() {
+    var obj;
+    var browser = navigator.appName;
+    if (browser == "Microsoft Internet Explorer") {
+        obj = new ActiveXObject("Microsoft.XMLHTTP");
+    } else {
+        obj = new XMLHttpRequest();
+    }
+    return obj;
+}
+
+function sendReq(req) {   
+    var http = createRequestObject();
+    http.open('get', req);
+    http.onreadystatechange = handleResponse;
+    http.send(null);
+}
+
+function handleResponse() {    
+    if (http.readyState == 4) {
+        var response = http.responseText;
+        document.getElementById('DisplayTitanButton').innerHTML=response;
+    }
+}
+
+ sendReq('https://github.com/jelle619/titanbutton/raw/master/markup.html');
+//previously </script> was not visible
 </script>
+<div id="DisplayTitanButton"></div>
 
 <!-- This code is optional. It allows you to customise the look of the button through CSS. You may put this as HTML in the body of your document or in an external CSS file your document uses. -->
 <style>
