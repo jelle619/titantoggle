@@ -80,10 +80,10 @@
   
 /* Default values */
 #TitanButtonEmbed {
-  --titan-button-open-color: rgb(115,145,214)
-  --titan-button-open-hover-color: rgb(80,101,149)
-  --titan-button-open-active-color: rgb(40,61,100)
-  --titan-button-open-border-color: rgb(80,101,149)
+  --titan-button-open-color: rgb(115,145,214);
+  --titan-button-open-hover-color: rgb(80,101,149);
+  --titan-button-open-active-color: rgb(40,61,100);
+  --titan-button-open-border-color: rgb(80,101,149);
   --titan-button-open-content: "";
   --titan-button-close-content: "Close";
   --titan-button-fontfamily: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
