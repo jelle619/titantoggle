@@ -27,7 +27,7 @@
   transition: color 0.1s ease-out, background 0.1s ease-in;
   position: absolute;
   border-radius: 5px;
-  box-shadow: 0px 0px 10px var(--titan-button-glow-size) var(--titan-button-glow-color);
+  box-shadow: 0px 0px var(--titan-button-open-glow-blur) var(--titan-button-open-glow-spread) var(--titan-button-open-glow-color);
   background-color: rgb(115,145,214);
   border-color: rgb(80,101,149);
   text-align: center;
@@ -41,10 +41,10 @@
   background-color: rgb(40,61,100);
 }
 #TitanButton:after {
-  content: var(--titan-button-content)
+  content: var(--titan-button-open-content)
 }
 #TitanCloseButton:after {
-  content: var(--titan-close-button-content);
+  content: var(--titan-button-close-content);
 }
 #TitanIcon /* SVG version by welian#6782 */ {
   height: 1.5em;
@@ -74,32 +74,29 @@
 .modal-body {
   padding: 0px;
 }
-
+  
+#TitanButtonEmbed {
+  font-family: var(--titan-button-fontfamily)
+  
 /* Default values */
 #TitanButtonEmbed {
-  --titan-button-content: "";
-  --titan-close-button-content: "Close";
-  --titan-button-glow-color: white;
-  --titan-button-glow-size: 8px;
-}
-
-/* User set values */
-
-#TitanButtonEmbed {
-  --titan-button-content: "";
-  --titan-close-button-content: "Close";
-  --titan-button-glow-color: white;
-  --titan-glow-size: 8px;
+  --titan-button-open-content: "";
+  --titan-button-close-content: "Close";
+  --titan-button-fontfamily
+  --titan-button-open-glow-blur: 0px;
+  --titan-button-open-glow-spread: 0px;
+  --titan-button-open-glow-color: white;
 }
 </style>
-  
+</div>
+
 <!-- User set values -->
-<style>
+<style>  
 #TitanButtonEmbed {
-  --titan-button-content: "";
-  --titan-close-button-content: "Close";
-  --titan-button-glow-color: white;
-  --titan-glow-size: 8px;
+  --titan-button-open-content: "";
+  --titan-button-close-content: "Close";
+  --titan-button-open-glow-blur: 0px;
+  --titan-button-open-glow-spread: 0px;
+  --titan-button-open-glow-color: white;
 }
 </style>
-<div>
