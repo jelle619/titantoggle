@@ -28,17 +28,17 @@
   position: absolute;
   border-radius: 5px;
   box-shadow: 0px 0px var(--titan-button-open-glow-blur) var(--titan-button-open-glow-spread) var(--titan-button-open-glow-color);
-  background-color: rgb(115,145,214);
-  border-color: rgb(80,101,149);
+  background-color: var(--titan-button-open-color);
+  border-color: var(--titan-button-open-border-color);
   text-align: center;
   bottom:40px;
   right:40px;
 }
 #TitanButton:hover {
-  background-color: rgb(80,101,149);
+  background-color: var(--titan-button-open-hover-color);
 }
 #TitanButton:active {
-  background-color: rgb(40,61,100);
+  background-color: var(--titan-button-open-active-color);
 }
 #TitanButton:after {
   content: var(--titan-button-open-content)
@@ -80,6 +80,10 @@
   
 /* Default values */
 #TitanButtonEmbed {
+  --titan-button-open-color: rgb(115,145,214)
+  --titan-button-open-hover-color: rgb(80,101,149)
+  --titan-button-open-active-color: rgb(40,61,100)
+  --titan-button-open-border-color: rgb(80,101,149)
   --titan-button-open-content: "";
   --titan-button-close-content: "Close";
   --titan-button-fontfamily: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
