@@ -1,0 +1,89 @@
+@font-face {
+    font-family: Whitney;
+    font-style: light;
+    font-weight: 300;
+    src: url("https://github.com/TitanEmbeds/Titan/blob/master/webapp/titanembeds/static/fonts/whitney_light.woff") format("woff")
+}
+@font-face {
+    font-family: Whitney;
+    font-style: normal;
+    font-weight: 500;
+    src: url("https://github.com/TitanEmbeds/Titan/raw/master/webapp/titanembeds/static/fonts/whitney_normal.woff") format("woff")
+}
+@font-face {
+    font-family: Whitney;
+    font-style: medium;
+    font-weight: 600;
+    src: url("https://github.com/TitanEmbeds/Titan/raw/master/webapp/titanembeds/static/fonts/whitney_medium.woff") format("woff")
+}
+@font-face {
+    font-family: Whitney;
+    font-style: bold;
+    font-weight: 700;
+    src: url("https://github.com/TitanEmbeds/Titan/raw/master/webapp/titanembeds/static/fonts/whitney_bold.woff") format("woff")
+}
+  
+#TitanButton {
+  transition: color 0.1s ease-out, background 0.1s ease-in;
+  position: absolute;
+  border-radius: 5px;
+  box-shadow: 0px 0px var(--titan-button-open-glow-blur) var(--titan-button-open-glow-spread) var(--titan-button-open-glow-color);
+  background-color: rgb(115,145,214);
+  border-color: rgb(80,101,149);
+  text-align: center;
+  bottom:40px;
+  right:40px;
+}
+#TitanButton:hover {
+  background-color: rgb(80,101,149);
+}
+#TitanButton:active {
+  background-color: rgb(40,61,100);
+}
+#TitanButton:after {
+  content: var(--titan-button-open-content)
+}
+#TitanCloseButton:after {
+  content: var(--titan-button-close-content);
+}
+#TitanIcon /* SVG version by welian#6782 */ {
+  height: 1.5em;
+  filter: grayscale(100%);
+}
+#TitanIframe {
+  border: 0px;
+}
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 550px;
+  overflow: hidden;
+  max-width: 100%;
+  border-radius: 5px;
+}
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.btn-ease-transition {
+  transition: color 0.1s ease-out, background 0.1s ease-in;
+}
+.modal-body {
+  padding: 0px;
+}
+  
+#TitanButtonEmbed {
+  font-family: var(--titan-button-fontfamily)
+  
+/* Default values */
+#TitanButtonEmbed {
+  --titan-button-open-content: "";
+  --titan-button-close-content: "Close";
+  --titan-button-fontfamily: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --titan-button-open-glow-blur: 0px;
+  --titan-button-open-glow-spread: 0px;
+  --titan-button-open-glow-color: white;
+}
