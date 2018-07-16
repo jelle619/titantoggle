@@ -74,7 +74,7 @@
 }
 
 .bootstrap-iso .btn-info {
-  background-image: none;
+  background-image: none; !important
 }
 
 .modal-body {
