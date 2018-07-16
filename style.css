@@ -29,6 +29,7 @@
   border-radius: 5px;
   box-shadow: 0px 0px var(--titan-button-open-glow-blur) var(--titan-button-open-glow-spread) var(--titan-button-open-glow-color);
   background-color: var(--titan-button-open-color);
+  background-image: none;
   border-color: var(--titan-button-open-border-color);
   text-align: center;
   bottom:40px;
@@ -71,10 +72,6 @@
 }
 .btn-ease-transition {
   transition: color 0.1s ease-out, background 0.1s ease-in;
-}
-
-.bootstrap-iso .btn-info {
-  background-image: none; !important
 }
 
 .modal-body {
