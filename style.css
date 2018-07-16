@@ -2,25 +2,25 @@
     font-family: Whitney;
     font-style: light;
     font-weight: 300;
-    src: url("https://github.com/TitanEmbeds/Titan/blob/master/webapp/titanembeds/static/fonts/whitney_light.woff") format("woff")
+    src: url("https://github.com/TitanEmbeds/Titan/blob/master/webapp/titanembeds/static/fonts/whitney_light.woff") format("woff");
 }
 @font-face {
     font-family: Whitney;
     font-style: normal;
     font-weight: 500;
-    src: url("https://github.com/TitanEmbeds/Titan/raw/master/webapp/titanembeds/static/fonts/whitney_normal.woff") format("woff")
+    src: url("https://github.com/TitanEmbeds/Titan/raw/master/webapp/titanembeds/static/fonts/whitney_normal.woff") format("woff");
 }
 @font-face {
     font-family: Whitney;
     font-style: medium;
     font-weight: 600;
-    src: url("https://github.com/TitanEmbeds/Titan/raw/master/webapp/titanembeds/static/fonts/whitney_medium.woff") format("woff")
+    src: url("https://github.com/TitanEmbeds/Titan/raw/master/webapp/titanembeds/static/fonts/whitney_medium.woff") format("woff");
 }
 @font-face {
     font-family: Whitney;
     font-style: bold;
     font-weight: 700;
-    src: url("https://github.com/TitanEmbeds/Titan/raw/master/webapp/titanembeds/static/fonts/whitney_bold.woff") format("woff")
+    src: url("https://github.com/TitanEmbeds/Titan/raw/master/webapp/titanembeds/static/fonts/whitney_bold.woff") format("woff");
 }
 
 #TitanButton {
@@ -41,7 +41,7 @@
   background-color: var(--titan-button-open-active-color);
 }
 #TitanButton:after {
-  content: var(--titan-button-open-content)
+  content: var(--titan-button-open-content);
 }
 #TitanCloseButton:after {
   content: var(--titan-button-close-content);
