@@ -38,6 +38,7 @@ function scriptLoadHandler() {
 /******** Our main function ********/
 function main() { 
     jQuery(document).ready(function($) { 
+        $(function(){$("#TitanInclude").load("https://cdn.rawgit.com/jelle619/titanbutton/bbabc219/markup.html")});
         /*!
         * Bootstrap v3.3.4 (http://getbootstrap.com)
         * Copyright 2011-2015 Twitter, Inc.
