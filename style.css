@@ -74,7 +74,7 @@
 }
 
 .bootstrap-iso .btn-info {
-  background-image: rgba(255,255,255,0)
+  background-image: none;
 }
 
 .modal-body {
