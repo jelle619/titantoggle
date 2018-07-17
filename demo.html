@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jelle Z.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jelle619/titanbutton/5fedaf0b/Libraries/bootstrap-iso.css">
+    <script src="https://cdn.rawgit.com/jelle619/titanbutton/5fedaf0b/Libraries/bootstrap-iso.js"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jelle619/titanbutton/5fedaf0b/style.css">
+
+</head>
+
+<body>
+    <div class="bootstrap-iso">
+        <div id="TitanButtonEmbed">
+            <div class="container">
+                <button type="button" id="TitanButton" class="btn btn-info btn-lg" data-toggle="modal" data-target="#TitanModal"><img id="TitanIcon" src="https://github.com/TitanEmbeds/Titan/raw/master/webapp/titanembeds/static/img/titanembeds_shield.png" alt="Titan Embeds icon" srcset="https://cdn.rawgit.com/TitanEmbeds/Titan/bc129289/webapp/titanembeds/static/img/titanembeds-shield-white.svg"></button>
+                <div class="modal fade" id="TitanModal" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <div class="embed-container">
+                                    <iframe id="TitanIframe" src='https://titanembeds.com/embed/295085744249110529'></iframe>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" id="TitanCloseButton" class="btn btn-default" data-dismiss="modal"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BODY CUSTOMISATION CODE (optional) -->
+    <style>
+        #TitanButtonEmbed {
+            /* BASIC */
+            --titan-button-open-icon-white: 1;
+            /* Makes the Titan icon on the button you use to open the Iframe either black (0) or white (1). If not supported by the browser, white will be used. */
+            --titan-button-open-color: rgb(115, 145, 214);
+            /* Change the colo(u)r of the button you use to open the Iframe. */
+            --titan-button-open-hover-color: rgb(80, 101, 149);
+            /* Change the colo(u)r of the button you use to open the Iframe when you hover over it with your mouse. */
+            --titan-button-open-active-color: rgb(40, 61, 100);
+            /* Change the colo(u)r of the button you use to open the Iframe while it's being clicked/tapped. */
+            --titan-button-open-border-color: rgb(80, 101, 149);
+            /* Change the colo(u)r of the button's border you use to open the Iframe. */
+            --titan-button-open-content: "";
+            /* Make the button you use to open the Iframe say something you want. */
+            --titan-button-close-content: "Close";
+            /* Make the button you use to close the Iframe say something you want. */
+            /* ADVANCED */
+            --titan-button-fontfamily: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            /* Sets the font(s) to use. All (except Whitney) must be installed on the user's device. */
+            --titan-button-open-glow-blur: 0px;
+            /* Change the amount of blur of the glow (or shadow) of the button you use to open the Iframe. */
+            --titan-button-open-glow-spread: 0px;
+            /* Change the size of the glow (or shadow) of the button you use to open the Iframe. */
+            --titan-button-open-glow-color: white;
+            /* Change the colo(u)r of the glow (or shadow) of the button you use to open the Iframe. */
+        }
+    </style>
+
+    <!-- DUMMY BODY CONTENT -->
+    <h1 style="text-align: center; color: white;">Titan Button Demo</h1>
+    <h2 style="text-align: center; color: white;">by Jelle Z.</h2>
+    <style>
+        body {
+          background-color: rgb(100,20,20);
+        }
+    </style>
+</body>
+
+</html>
