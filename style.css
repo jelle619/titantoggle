@@ -45,10 +45,6 @@
   content: var(--titan-button-open-content);
 }
 
-#TitanCloseButton {
-    transition: color 0.1s ease-out, background 0.1s ease-in;
-}
-
 #TitanCloseButton:after {
   content: var(--titan-button-close-content);
 }
