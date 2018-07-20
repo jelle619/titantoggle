@@ -55,6 +55,7 @@
 }
 #TitanIframe {
   border: 0px;
+  height: var(--titan-button-iframe-height);
 }
 .embed-container {
   position: relative;
@@ -85,7 +86,7 @@
 
 /* Default values */
 #TitanButtonEmbed {
-  --titan-button-iframe-height: 75%
+  --titan-button-iframe-height: 75%;
   --titan-button-open-icon-white: 1;
   --titan-button-open-color: rgb(115,145,214);
   --titan-button-open-hover-color: rgb(80,101,149);
