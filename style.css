@@ -55,12 +55,11 @@
 }
 #TitanIframe {
   border: 0px;
-  height: var(--titan-button-iframe-height);
 }
 .embed-container {
   position: relative;
   padding-bottom: 56.25%;
-  height: 550px;
+  height: var(--titan-button-iframe-height);
   overflow: hidden;
   max-width: 100%;
   border-radius: 5px;
