@@ -3,20 +3,21 @@
 <link rel="stylesheet" href="REFERENCE_CUSTOM_CSS"> <!-- Customised CSS -->
 
 <!-- BODY CODE -->
-<div class="materialise" id="titanembed">
+<div class="materialise">
   <!-- Materialise JS code (loads jQuery if v3.2.1 isn't present) -->
   <script type="text/javascript" src="https://rawgit.com/jelle619/titanbutton/master/libraries/materialise.js"></script>
 
   <!-- Modal Trigger -->
-  <a class="waves-effect waves-light btn modal-trigger" href="#titanmodal"><img id="titanicon" src="https://github.com/TitanEmbeds/Titan/raw/master/webapp/titanembeds/static/img/titanembeds_shield.png" alt="Titan Embeds icon" srcset="https://cdn.rawgit.com/TitanEmbeds/Titan/bc129289/webapp/titanembeds/static/img/titanembeds-shield-white.svg"></a>
-
+  <button data-target="modal1" class="btn modal-trigger">Modal</button>
+  
   <!-- Modal Structure -->
-  <div id="modal1" class="modal">
+  <div id="modal1" class="modal modal-fixed-footer">
     <div class="modal-content">
-      <iframe id="titaniframe" src='https://titanembeds.com/embed/295085744249110529'></iframe>
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
     </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close/a>
     </div>
   </div>
 </div>
