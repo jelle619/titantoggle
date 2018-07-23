@@ -38,6 +38,7 @@ function scriptLoadHandler() {
 /******** Our main function ********/
 function main() {
     jQuery(document).ready(function($) {
+        $(document).ready(function(){$('.modal-trigger').leanModal()});
         /*!
         * Materialize v0.100.2 (http://materializecss.com)
         * Copyright 2014-2017 Materialize
