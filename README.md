@@ -1,2 +1,2 @@
-# Titan Toggle - Bootstrap Flavour
+# Titan Toggle - Material Flavour
 ### Elegant. Revolutionary. Breathtaking.
