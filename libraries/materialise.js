@@ -38,7 +38,6 @@ function scriptLoadHandler() {
 /******** Our main function ********/
 function main() {
     jQuery(document).ready(function($) {
-        !function(o){o(function(){o(".modal").modal(),o("#modal1").modal("open"),o(".trigger-modal").modal()})}(jQuery);
         /*!
         * Materialize v0.100.2 (http://materializecss.com)
         * Copyright 2014-2017 Materialize
