@@ -29,3 +29,8 @@
 #titanbuttonembed {
   font-family: 'Whitney','Helvetica Neue', sans-serif;
 }
+
+#titanbuttonopen {
+  bottom:40px;
+  right:40px;
+}
