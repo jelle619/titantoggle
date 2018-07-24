@@ -44,8 +44,7 @@
 }
 
 #titanbuttonmodal {
-  overflow-x: scroll;
-  overflow-y: scroll;
+  padding: none;
 }
 
 .embed-container {
