@@ -44,7 +44,7 @@
 }
 
 #titanbuttonmodal {
-  overflow-x: hidden;
+  overflow-x: scroll;
   overflow-y: scroll;
 }
 
