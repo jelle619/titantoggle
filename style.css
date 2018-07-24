@@ -31,10 +31,11 @@
 }
 
 #titanbuttonopen {
+  position: absolute;
   bottom:40px;
   right:40px;
 }
 
 #titanbuttonclose {
-  margin: 10px 0;
+  margin: 5px 0;
 }
