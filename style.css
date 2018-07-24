@@ -67,5 +67,12 @@
 }
 
 #titanbuttonicon {
-  height: 1.5em
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  height: 50%;
+  width: 50%;
+  margin: -15% 0 0 -25%;
+  -webkit-filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
 }
