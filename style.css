@@ -32,10 +32,15 @@
 
 #titanbuttonopen {
   position: absolute;
-  bottom:30px;
-  right:30px;
+  bottom: 30px;
+  right: 30px;
 }
 
 #titanbuttonclose {
   margin: 5px 0;
+}
+
+#titanbuttonmodal {
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
