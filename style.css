@@ -47,7 +47,7 @@
   overflow-x: hidden;
 }
 
-.titanbuttonmodal {
+#titanbuttonmodal .modal-content {
   padding: 0px;
 }
 
