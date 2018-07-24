@@ -44,8 +44,11 @@
 }
 
 #titanbuttonmodal {
-  padding: 0px;
   overflow-x: hidden;
+}
+
+.titanbuttonmodal {
+  padding: 0px;
 }
 
 .embed-container {
