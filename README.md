@@ -7,7 +7,7 @@ This project
 This project comes in two flavours. For each flavour, the setup differs slightly.
 
 ### Bootstrap flavour
-![Bootstrap flavour demo](https://i.imgur.com/gLqF28Z.png)
+![Bootstrap flavour demo](https://i.imgur.com/iDLmTG5.png)
 This flavour is in alpha and can be embedded into your onto your site. To start, reference the two library files in the header of your page like.
 ```html
 <link rel="stylesheet" href="https://cdn.rawgit.com/jelle619/titanbutton/5fedaf0b/Libraries/bootstrap-iso.css">
