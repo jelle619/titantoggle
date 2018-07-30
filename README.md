@@ -56,7 +56,7 @@ Congratulations! Your button has now been embedded onto your site! If you want t
   --titan-button-open-color: rgb(115,145,214); /* Change the colo(u)r of the button you use to open the Iframe. */
   --titan-button-open-hover-color: rgb(80,101,149); /* Change the colo(u)r of the button you use to open the Iframe when you hover over it with your mouse. */
   --titan-button-open-active-color: rgb(40,61,100); /* Change the colo(u)r of the button you use to open the Iframe while it's being clicked/tapped. */
-  --titan-button-open-border-color: rgb(80,101,149);  /* Change the colo(u)r of the button's border you use to open the Iframe. */
+  --titan-button-open-border-color: rgb(80,101,149);  /* Change the border's colo(u)r of the button you use to open the Iframe. */
   --titan-button-open-content: ""; /* Make the button you use to open the Iframe say something you want. */
   --titan-button-close-content: "Close"; /* Make the button you use to close the Iframe say something you want. */
   /* ADVANCED */
