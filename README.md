@@ -46,7 +46,26 @@ You may also use the minified version of this code.
 <div class="bootstrap-iso"> <div id="TitanButtonEmbed"> <div class="container"> <button type="button" id="TitanButton" class="btn btn-info btn-lg" data-toggle="modal" data-target="#TitanModal"><img id="TitanIcon" src="https://github.com/TitanEmbeds/Titan/raw/master/webapp/titanembeds/static/img/titanembeds_shield.png" alt="Titan Embeds icon" srcset="https://cdn.rawgit.com/TitanEmbeds/Titan/bc129289/webapp/titanembeds/static/img/titanembeds-shield-white.svg"></button> <div class="modal fade" id="TitanModal" role="dialog"> <div class="modal-dialog"> <div class="modal-content"> <div class="modal-body"> <div class="embed-container"> <iframe id="TitanIframe" src='GUILD_URL_HERE'></iframe> </div></div><div class="modal-footer"> <button type="button" id="TitanCloseButton" class="btn btn-default" data-dismiss="modal"></button> </div></div></div></div></div></div></div>
 ```
 
-Congratulations! Your button has now been embedded onto your site!
+Congratulations! Your button has now been embedded onto your site! If you want to, you can now start customising it by embedding the following CSS after Titan Toggle.
+
+```css
+#TitanButtonEmbed {
+  /* BASIC */
+  --titan-button-iframe-height: 550px; /* Changes the height of the Iframe inside of the modal. */
+  --titan-button-open-icon-white: 1; /* Makes the Titan icon on the button you use to open the Iframe either black (0) or white (1). */
+  --titan-button-open-color: rgb(115,145,214); /* Change the colo(u)r of the button you use to open the Iframe. */
+  --titan-button-open-hover-color: rgb(80,101,149); /* Change the colo(u)r of the button you use to open the Iframe when you hover over it with your mouse. */
+  --titan-button-open-active-color: rgb(40,61,100); /* Change the colo(u)r of the button you use to open the Iframe while it's being clicked/tapped. */
+  --titan-button-open-border-color: rgb(80,101,149);  /* Change the colo(u)r of the button's border you use to open the Iframe. */
+  --titan-button-open-content: ""; /* Make the button you use to open the Iframe say something you want. */
+  --titan-button-close-content: "Close"; /* Make the button you use to close the Iframe say something you want. */
+  /* ADVANCED */
+  --titan-button-fontfamily: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif; /* Sets the font(s) to use. All (except Whitney) must be installed on the user's device. */
+  --titan-button-open-glow-blur: 0px; /* Change the amount of blur of the glow (or shadow) of the button you use to open the Iframe. */
+  --titan-button-open-glow-spread: 0px; /* Change the size of the glow (or shadow) of the button you use to open the Iframe. */
+  --titan-button-open-glow-color: white; /* Change the colo(u)r of the glow (or shadow) of the button you use to open the Iframe. */
+}
+```
 
 ### Material flavour
 This button is in development and is not yet ready to be implemented! Feel free to contribute to it in the meantime.
