@@ -12,7 +12,7 @@ This flavour is in alpha and can be embedded into your onto your site. To start,
 ```html
 <link rel="stylesheet" href="https://cdn.rawgit.com/jelle619/titanbutton/5fedaf0b/Libraries/bootstrap-iso.css">
 <script src="https://cdn.rawgit.com/jelle619/titanbutton/5fedaf0b/Libraries/bootstrap-iso.js"></script>
-<link rel="stylesheet" href="https://cdn.rawgit.com/jelle619/titanbutton/5fedaf0b/style.css">
+<link rel="stylesheet" href="https://cdn.rawgit.com/jelle619/titantoggle/61ee96c1/bootstrap_flavour/style.css">
 ```
 
 Then, paste the following code in the body of your website's HTML document. Make sure to replace "GUILD_URL_HERE" with the direct URL of your embed which can be found on your dashboard. It will not work otherwise!
