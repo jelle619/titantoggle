@@ -25,7 +25,7 @@
 
 #TitanButton {
   transition: color 0.1s ease-out, background 0.1s ease-in;
-  position: absolute;
+  position: fixed;
   border-radius: 5px;
   box-shadow: 0px 0px var(--titan-button-open-glow-blur) var(--titan-button-open-glow-spread) var(--titan-button-open-glow-color);
   background-color: var(--titan-button-open-color);
