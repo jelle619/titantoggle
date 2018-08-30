@@ -1,13 +1,13 @@
 Open License for Modification (OLM)
 An updated copy can be obtained @ https://github.com/jelle619/openlicenseformodification/raw/master/License.txt
 
-Version 1.2.1
+Version 1.2.3
 © 2018 by Jelle Z.
 
 1. The licensee rights and obligations
 
 	1.1. The licensee has the right to obtain a free copy of the object for personal use.
-	1.2. It is the right of the licensee to redistribute altered copies of the object. This means that it must contain changes and/or improvements and may not be exactly the same as the original source. Commercial use is not allowed unless explicitly stated otherwise by the licensor.
+	1.2. It is the right of the licensee to redistribute altered copies of the object as long as it's made open source. This means that it must contain significant changes and/or improvements and may not be exactly the same as the original source. Commercial use is not allowed unless explicitly stated otherwise by the licensor.
 	1.3. The licensee is given the right to adapt or modify the object to suit his needs and to redistribute the modified object subject to the following conditions:
 
 		1.3.1. You must not remove the license information (e.g., a header in the source code) present in the object.
