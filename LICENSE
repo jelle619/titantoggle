@@ -1,7 +1,8 @@
 Open License for Modification (OLM)
 An updated copy can be obtained @ https://github.com/jelle619/openlicenseformodification/raw/master/License.txt
+The auther of the original work or someone given permission to license it will hereby be reffered to as "licensor".
 
-Version 1.2.3
+Version 1.3
 © 2018 by Jelle Z.
 
 1. The licensee rights and obligations
@@ -11,10 +12,14 @@ Version 1.2.3
 	1.3. The licensee is given the right to adapt or modify the object to suit his needs and to redistribute the modified object subject to the following conditions:
 
 		1.3.1. You must not remove the license information (e.g., a header in the source code) present in the object.
-		1.3.2. When redistributing the altered object, you must include the following information with it: This document or data is a derivative of {Name of the object} from {Licensor} and the information contained here may or may not represent the original document or data.
+		1.3.2. When redistributing the altered object, you must include the following information with it: This document or data is a derivative of {Name of the object} from {Licensor} and the information contained here may or may not represent the original document or data.	
 		1.3.3. In case of juridical problems that may arise because of the licensee's use of the object and its license, the licensee is liable instead of the licensor.
 
-	1.4. The licensee is given the right to redistribute work, but not under a different license unless granted permission by the original licensor.
+	1.4. If this license is used for derrivitave work licensed under OLM, clause 1.3 and all clauses contained within it become invalid. Only in this case will the following conditions become valid:
+		1.4.1. Allowing someone to use your derived work commercially requires you to have obtained permission from the licensor of the original work first.
+		1.4.2. Licensees of your derived work must include the following information when redistributing it: Further alterations to this derivitive work of {Name of object} have been made by {Licensor}.
+		1.4.3. In case of juridical problems that may arise because of the licensee's use of the object and its license, the licensor nor the licensor of the original work are liable. Only the licensee can be held accountable.
+	
 
 2. Liability of the licensor and of the licensee
 
