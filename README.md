@@ -71,4 +71,4 @@ Congratulations! Your button has now been embedded onto your site! If you want t
 This button is in development and is not yet ready to be implemented! Feel free to contribute to it in the meantime.
 
 ## License
-This project uses the Open License for Modification (OLM). A copy of this license can be found in "LICENSE.md". Please note that parts of this project are subject to a different license. This has been indicated in the source code itself.
+This project uses the Open License for Modification (OLM). A copy of this license can be found in "LICENSE". Please note that parts of this project are subject to a different license. This has been indicated in the source code itself.
