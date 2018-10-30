@@ -78,10 +78,12 @@ This flavour is in alpha and can be embedded into your onto your site. To start,
 <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 ```
 Now, add the following JavaScript code to your HTML. This will be required in the next step to create the trigger.
-```javascript
+```html
+<script>
 $(".titanbutton").magnificPopup({
   type: "iframe"
 });
+</script>
 ```
 
 You can now use an anker with the class ``titanbutton`` to create a clickable link that will trigger the button. Below is given an example.
