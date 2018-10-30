@@ -86,7 +86,7 @@ $(".titanbutton").magnificPopup({
 </script>
 ```
 
-You can now use an anker with the class ``titanbutton`` to create a clickable link that will trigger the button. Below is given an example.
+You can now use an anker with the class ``titanbutton`` to create a clickable link that will trigger the button. Below is given an example. The ``href`` of your anker should refer to your guild URL. ``target=_blank`` or similar needn't be used.
 
 ```html
 <a class="titanbutton" href="https://titanembeds.com/embed/295085744249110529">Open Titan Embeds chat</a>
