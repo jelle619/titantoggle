@@ -77,7 +77,14 @@ This flavour is in alpha and can be embedded into your onto your site. To start,
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> <!-- Can cause conflicts with other JavaScript libraries! Do not use this if your site already uses jQuery.-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 ```
-You can use an anker with the class ``titanbutton`` to create a clickable link that will trigger the button. Below is given an example.
+Now, add the following JavaScript code to your HTML. This will be required in the next step to create the trigger.
+```javascript
+$(".titanbutton").magnificPopup({
+  type: "iframe"
+});
+```
+
+You can now use an anker with the class ``titanbutton`` to create a clickable link that will trigger the button. Below is given an example.
 
 ```html
 <a class="titanbutton" href="https://titanembeds.com/embed/295085744249110529">Open Titan Embeds chat</a>
