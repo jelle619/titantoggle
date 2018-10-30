@@ -6,7 +6,7 @@ This project
 ## Setup
 This project comes in two flavours. For each flavour, the setup differs slightly.
 
-### Bootstrap flavour
+### Bootstrap flavour ([CodePen](https://codepen.io/jelle619/pen/zmKEQz))
 ![Bootstrap flavour demo](https://i.imgur.com/iDLmTG5.png)
 This flavour is in alpha and can be embedded into your onto your site. To start, reference the two library files in the header of your page like.
 ```html
@@ -69,6 +69,20 @@ Congratulations! Your button has now been embedded onto your site! If you want t
 
 ### Material flavour
 This button is in development and is not yet ready to be implemented! Feel free to contribute to it in the meantime.
+
+### Magnific Popup flavour ([CodePen](https://codepen.io/jelle619/pen/oazoza))
+![Magnific Popup flavour demo](https://i.imgur.com/ydDQOTM.png)
+This flavour is in alpha and can be embedded into your onto your site. To start, reference the two library files in the header of your page like.
+```html
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> <!-- Can cause conflicts with other JavaScript libraries! Do not use this if your site already uses jQuery.-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+```
+You can use an anker with the class ``titanbutton`` to create a clickable link that will trigger the button. Below is given an example.
+
+```html
+<a class="titanbutton" href="https://titanembeds.com/embed/295085744249110529">Open Titan Embeds chat</a>
+```
+
 
 ## License
 This project uses the Open License for Modification (OLM). A copy of this license can be found in "LICENSE". Please note that parts of this project are subject to a different license. This has been indicated in the source code itself.
