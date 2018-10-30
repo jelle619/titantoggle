@@ -83,13 +83,11 @@ If your site already uses jQuery, you will not need to add the jQuery a second t
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 ```
-Now, add the following JavaScript code to your HTML. This will be required in the next step to create the trigger.
-```html
-<script>
+Now, add the following JavaScript code to your page. This will be required in the next step to create the trigger.
+```javascript
 $(".titanbutton").magnificPopup({
   type: "iframe"
 });
-</script>
 ```
 
 You can now use an anker with the class ``titanbutton`` to create a clickable link that will trigger the button. Below is given an example. The ``href`` of your anker should refer to your guild URL. ``target=_blank`` or similar needn't be used.
