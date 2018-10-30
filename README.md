@@ -6,7 +6,7 @@ This project
 ## Setup
 This project comes in two flavours. For each flavour, the setup differs slightly.
 
-### Bootstrap flavour ([Image](https://i.imgur.com/iDLmTG5.png)/[CodePen](https://codepen.io/jelle619/pen/zmKEQz))
+### Bootstrap flavour ([Image](https://i.imgur.com/iDLmTG5.png)/[CodePen](https://codepen.io/jelle619/embed/zmKEQz))
 ![Bootstrap flavour demo](https://i.imgur.com/iDLmTG5.png)
 This flavour is in alpha and can be embedded into your onto your site. To start, reference the two library files in the header of your page like below. These two libraries include isolated versions of jQuery and Bootstrap. This means that they will not affect the rest of your site, including any other JavaScript libraries it may use.
 ```html
@@ -70,7 +70,7 @@ Congratulations! The toggle has now been embedded onto your site! If you want to
 ### Material flavour
 This button is in development and is not yet ready to be implemented! Feel free to contribute to it in the meantime.
 
-### Magnific Popup flavour ([Image](https://i.imgur.com/ydDQOTM.png)/[CodePen](https://codepen.io/jelle619/pen/oazoza))
+### Magnific Popup flavour ([Image](https://i.imgur.com/ydDQOTM.png)/[CodePen](https://codepen.io/jelle619/embed/oazoza))
 ![Magnific Popup flavour demo](https://i.imgur.com/ydDQOTM.png)
 This flavour is in alpha and can be embedded into your onto your site. To start, reference the two library files in the header of your page like. Please note that these libraries, unlike the libraries for the Bootstrap flavour, are not isolated. This means that they may break your site if you use JavaScript libraries that conflict with jQuery.
 
