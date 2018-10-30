@@ -6,7 +6,7 @@ This project
 ## Setup
 This project comes in two flavours. For each flavour, the setup differs slightly.
 
-### Bootstrap flavour ([CodePen](https://codepen.io/jelle619/pen/zmKEQz))
+### Bootstrap flavour ([Image](https://i.imgur.com/iDLmTG5.png)/[CodePen](https://codepen.io/jelle619/pen/zmKEQz))
 ![Bootstrap flavour demo](https://i.imgur.com/iDLmTG5.png)
 This flavour is in alpha and can be embedded into your onto your site. To start, reference the two library files in the header of your page like.
 ```html
@@ -70,7 +70,7 @@ Congratulations! Your button has now been embedded onto your site! If you want t
 ### Material flavour
 This button is in development and is not yet ready to be implemented! Feel free to contribute to it in the meantime.
 
-### Magnific Popup flavour ([CodePen](https://codepen.io/jelle619/pen/oazoza))
+### Magnific Popup flavour ([Image](https://i.imgur.com/ydDQOTM.png)/[CodePen](https://codepen.io/jelle619/pen/oazoza))
 ![Magnific Popup flavour demo](https://i.imgur.com/ydDQOTM.png)
 This flavour is in alpha and can be embedded into your onto your site. To start, reference the two library files in the header of your page like.
 ```html
