@@ -1,4 +1,4 @@
-![Titan Toggle logo](https://i.imgur.com/AOQQI0k.png)
+![Titan Toggle logo](https://i.imgur.com/mkY5t7X.png)
 
 Titan Toggle adds a customisable button to your web page. You can make it open your chat when you click on it.
 This project
