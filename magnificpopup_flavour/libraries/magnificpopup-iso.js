@@ -1,3 +1,5 @@
+/* THIS LIBRARY IS A WORK-IN-PROGRESS. PLEASE DO NOT USE THIS IN PRODUCTION. */
+
 (function() {
 
 // Localize jQuery variable
