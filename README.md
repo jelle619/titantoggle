@@ -1,4 +1,4 @@
-![Titan Toggle logo](https://i.imgur.com/mkY5t7X.png)
+# Titan Toggle
 Add a customisable button to your web page that opens a Titan Embeds guild chat when you click or tap on it.
 
 ## Setup
