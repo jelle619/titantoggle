@@ -2,7 +2,7 @@
 Add a customisable button to your web page that opens a Titan Embeds guild chat when you click or tap on it.
 
 ## Setup
-This project comes in two flavours. For each flavour, the setup differs slightly.
+This project comes in three flavours. For each flavour, the setup differs slightly.
 
 ### Bootstrap flavour ([Image](https://i.imgur.com/iDLmTG5.png)/[CodePen](https://codepen.io/jelle619/embed/zmKEQz))
 ![Bootstrap flavour demo](https://i.imgur.com/iDLmTG5.png)
