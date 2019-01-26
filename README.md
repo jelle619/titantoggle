@@ -6,7 +6,6 @@ This project comes in three flavours. For each flavour, the setup differs slight
 
 ### Bootstrap flavour ([Image](https://i.imgur.com/iDLmTG5.png)/[CodePen](https://codepen.io/jelle619/embed/zmKEQz))
 ![Bootstrap flavour demo](https://i.imgur.com/iDLmTG5.png)
-This flavour is in alpha and can be embedded into your onto your site. To start, reference the two library files in the header of your page like below. These two libraries include isolated versions of jQuery and Bootstrap. This means that they will not affect the rest of your site, including any other JavaScript libraries it may use.
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jelle619/titanbutton@5fedaf0b37d4a79d6f566508c6ccb6e3b88e25bf/Libraries/bootstrap-iso.css">
 <script src="https://cdn.jsdelivr.net/gh/jelle619/titanbutton@5fedaf0b37d4a79d6f566508c6ccb6e3b88e25bf/Libraries/bootstrap-iso.js"></script>
@@ -70,7 +69,7 @@ This button is in development and is not yet ready to be implemented! Feel free 
 
 ### Magnific Popup flavour ([Image](https://i.imgur.com/ydDQOTM.png)/[CodePen](https://codepen.io/jelle619/embed/oazoza))
 ![Magnific Popup flavour demo](https://i.imgur.com/ydDQOTM.png)
-This flavour is in alpha and can be embedded into your onto your site. To start, reference the two library files in the header of your page like. Please note that these libraries, unlike the libraries for the Bootstrap flavour, are not isolated. This means that they may break your site if you use JavaScript libraries that conflict with jQuery.
+This flavour is in alpha and can be embedded into your onto your site. To start, reference the two library files in the header of your page like described down below. Please note that these libraries, unlike the libraries for the Bootstrap flavour, are not isolated. This means that they may break your site if you use JavaScript libraries that conflict with jQuery.
 
 You may reference the two libraries like so if your site does not include jQuery:
 ```html
