@@ -60,7 +60,7 @@ Congratulations! The toggle has now been embedded onto your site! If you want to
   --titan-button-fontfamily: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif; /* Sets the font(s) to use. All (except Whitney) must be installed on the user's device. */
   --titan-button-open-glow-blur: 0px; /* Change the amount of blur of the glow (or shadow) of the button you use to open the Iframe. */
   --titan-button-open-glow-spread: 0px; /* Change the size of the glow (or shadow) of the button you use to open the Iframe. */
-  --titan-button-open-glow-color: white; /* Change the colo(u)r of the glow (or shadow) of the button you use to open the Iframe. */
+  --titan-button-open-glow-color: white; /* Change the colour of the glow (or shadow) of the button you use to open the Iframe. */
 }
 ```
 
